@@ -15,7 +15,7 @@ jobs:
       pull-requests: write
       repository-projects: read
       security-events: read
-      statuses: write
+      statuses: read
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the latest code
