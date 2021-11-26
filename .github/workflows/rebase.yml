@@ -9,11 +9,11 @@ jobs:
     permissions:
       actions: write
       checks: read
-      contents: read
+      contents: write
       deployments: write
       id-token: write
       pull-requests: write
-      repository-projects: write
+      repository-projects: read
       security-events: write
       statuses: write
     runs-on: ubuntu-latest
