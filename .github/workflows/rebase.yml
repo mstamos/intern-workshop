@@ -10,6 +10,7 @@ jobs:
       actions: write
       pull-requests: write
       repository-projects: write
+      checks: read
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the latest code
