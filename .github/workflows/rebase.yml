@@ -9,8 +9,16 @@ jobs:
     permissions:
       actions: write
       checks: read
+      contents: read
+      deployments: read
       id-token: write
+      issues: read
+      discussions: read
+      packages: read
       pull-requests: write
+      repository-projects: read
+      security-events: read
+      statuses: read
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the latest code
