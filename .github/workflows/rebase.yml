@@ -11,6 +11,7 @@ jobs:
       checks: read
       contents: read
       deployments: read
+      id-token: read
       issues: read
       packages: read
       pull-requests: write
