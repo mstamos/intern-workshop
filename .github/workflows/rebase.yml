@@ -8,12 +8,15 @@ jobs:
     if: github.event.issue.pull_request != '' && contains(github.event.comment.body, '/rebase')
     permissions:
       actions: write
-      pull-requests: write
-      repository-projects: write
       checks: read
-      statuses: read
-      deployments: read
       contents: read
+      deployments: read
+      issues: read
+      packages: read
+      pull-requests: write
+      repository-projects: read
+      security-events: read
+      statuses: read
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the latest code
