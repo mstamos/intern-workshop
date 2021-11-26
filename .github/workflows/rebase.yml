@@ -10,7 +10,7 @@ jobs:
       actions: write
       checks: read
       id-token: write
-      pull-requests: read
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the latest code
