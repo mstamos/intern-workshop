@@ -11,7 +11,7 @@ jobs:
       pull-requests: write
       repository-projects: write
       checks: read
-      repository-projects: read
+      statuses: read
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the latest code
