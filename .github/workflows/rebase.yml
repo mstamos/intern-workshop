@@ -9,7 +9,7 @@ jobs:
     permissions:
       actions: write
       checks: read
-      contents: read
+      contents: write
       deployments: write
       id-token: write
       pull-requests: write
