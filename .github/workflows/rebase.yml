@@ -12,6 +12,8 @@ jobs:
       repository-projects: write
       checks: read
       statuses: read
+      deployments: read
+      contents: read
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the latest code
