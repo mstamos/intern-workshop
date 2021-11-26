@@ -6,6 +6,9 @@ jobs:
   rebase:
     name: Rebase
     if: github.event.issue.pull_request != '' && contains(github.event.comment.body, '/rebase')
+    permissions:
+      actions: write
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the latest code
